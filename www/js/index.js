@@ -44,7 +44,7 @@ function updateDisplay() {
 	//launched_count++;
 	updateDisplay();
 	    
-	alert("device ready");
+	//alert("device ready");
     }
 
 
@@ -53,7 +53,7 @@ function updateDisplay() {
 	//paused_count++;
 	//updateDisplay();
 	    
-	alert("pause");
+	//alert("pause");
     }
 	
 
@@ -61,6 +61,26 @@ function updateDisplay() {
 		
 	//resumed_count++;
 	//updateDisplay();
+        
+    key = "Data1";
+    value = "Why did you leave us";
+    window.localStorage.setItem(key,value);
+        
+    key = "Data2";
+    value = "";
+    window.localStorage.setItem(key,value);
+        
+    key = "Data3";
+    value = "Did we do something wrong";
+    window.localStorage.setItem(key,value);
+        
+    key = "Data4";
+    value = "";
+    window.localStorage.setItem(key,value);
+        
+    key = "Data5";
+    value = "Maybe we should make it so you can never leave us again?";
+    window.localStorage.setItem(key,value);
 	    
-	alert("resume");
+	//alert("resume");
     }
