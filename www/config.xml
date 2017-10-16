@@ -9,7 +9,7 @@
     <name>Application Storage Test</name>
 
     <description>
-        A sample application that counts the occurances of lifecycle events.
+        A sample application that tests data storage.
     </description>
 
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
