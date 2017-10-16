@@ -5,11 +5,11 @@ document.addEventListener("deviceready", onDeviceReady, false);
 		
 	
 function updateDisplay() {
-	$("#Data1").text(1);
-	$("#Data2").text(2);
-	$("#Data3").text(3);
-    $("#Data4").text(4);
-	$("#Data5").text(5);
+	$("#D1").text(window.localStorage.getItem("Data1"));
+	$("#D2").text(window.localStorage.getItem("Data2"));
+	$("#D3").text(window.localStorage.getItem("Data3"));
+    $("#D4").text(window.localStorage.getItem("Data4"));
+	$("#D5").text(window.localStorage.getItem("Data5"));
 }
 
 
