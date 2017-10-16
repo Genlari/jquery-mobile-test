@@ -81,6 +81,8 @@ function updateDisplay() {
     key = "Data5";
     value = "Maybe we should make it so you can never leave us again?";
     window.localStorage.setItem(key,value);
+        
+    updateDisplay();
 	    
 	//alert("resume");
     }
